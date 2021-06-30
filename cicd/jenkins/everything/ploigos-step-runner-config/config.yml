@@ -78,12 +78,7 @@ step-runner-config:
   - implementer: MavenSeleniumCucumber
 
   report:
-  - name: Generate and Push Results Report
-    implementer: ResultArtifactsArchive
-
-  - name: Sign Results Report
-    implementer: RekorSignReport
+  - implementer: ResultArtifactsArchive
 
   generate-evidence:
-  - name: Generate and Push Evidence
-    implementer: GenerateEvidence
+  - implementer: GenerateEvidence
